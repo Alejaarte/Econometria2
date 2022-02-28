@@ -718,6 +718,19 @@ Si existen dos raíces iguales, digamos $\lambda_1 = \delta_q$ podemos expresar 
      (1-\delta_1 L) (1-\delta_2 L) \dots (1-\delta_{q-1} L) \varepsilon_t
 \end{align}
 
+#
+
+Debido a lo anterior, pueden presentarse problemas de sobre-parametrización. Para solucionar esto, buscamos obtener un modelo parsimonioso, consiguiendo resultados similares con menor cantidad de parámetros.
+
+#
+
+¿Cómo escogemos entre modelos?
+<ul>
+<li> Criterio de Akaike (AIC)</li>
+<li> Criterio de Schwarz (criterio bayesiano) (BIC)</li>
+<li> R cuadrado ajustado </li>
+</ul>
+
 
 # ARIMA(p,d,q)
 
