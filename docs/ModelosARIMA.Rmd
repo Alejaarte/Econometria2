@@ -719,6 +719,22 @@ Si existen dos raíces iguales, digamos $\lambda_1 = \delta_q$ podemos expresar 
      (1-\delta_1 L) (1-\delta_2 L) \dots (1-\delta_{q-1} L) \varepsilon_t
 \end{align}
 
+#
+
+Pueden existir problemas de sobre-parametrización, lo cual se puede solucionar con la búsqueda de un modelo parsimonioso.
+
+¿Cómo escogemos entre modelos? A través de criterios de información:
+<ul>
+<li> R cuadrado ajustado.</li>
+<li> Criterio de Akaike (AIC). </li>
+        \begin{equation}
+        AIC=-\log (MV)+2(k/T)
+        \end{equation}
+<li> Criterio de Scharwz (o criterio bayesiano) (BIC). </li>
+        \begin{equation}
+        BIC=-\log (MV)+\ln (T)*k/T
+        \end{equation}
+</ul>
 
 # ARIMA(p,d,q)
 
